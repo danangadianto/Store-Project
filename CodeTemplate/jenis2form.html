@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="post" action="process.php">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama"><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"><br>
+
+        <label for="jk">Jenis Kelamin</label>
+        <input type="radio" id="jk" value="L">Laki-laki 
+        <input type="radio" id="jk" value="P">Perempuan<br>
+
+        <label for="status">Status</label>
+        <input type="checkbox" id="status" value="Y">Menikah
+        <input type="checkbox" id="status" value="T">Lajang<br>
+
+        <label for="tanggal">Tanggal Lahir</label>
+        <input type="date" id="tanggal"><br>
+
+        <label for="warna">Warna Favorit</label>
+        <input type="color" id="warna"><br>
+
+        <label for="hp">No. HP</label>
+        <input type="number" id="hp"><br>
+
+        <label for="berat">Berat Badan</label>
+        <input type="range" id="berat"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"><br>
+
+        <label for="web">Website</label>
+        <input type="url" id="web"><br>
+
+        <label for="jam">Jam Kerja</label>
+        <input type="time" id="jam"><br>
+
+        <label for="jabatan">Jabatan</label>
+            <select name="jabatan" id="jabatan">
+                <option value="direktur">Direktur</option>
+                <option value="manager">Manager</option>
+                <option value="supervisor">Supervisor</option>
+                <option value="sekretaris">Sekretaris</option>
+            </select> <br>
+
+        <label for="komentar">Komentar</label>
+        <textarea name="komentar" id="komentar" cols="60" rows="4"></textarea> <br>
+
+        <input type="submit" value="Save">
+        <input type="reset" value="Cancel"><br>
+    </form>
+    
+</body>
+</html>

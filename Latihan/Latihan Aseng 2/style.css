@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin: 0 auto;
+
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper1 {
+    width: 401px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: stretch;
+}
+
+.wrapper2 {
+    width: 100px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper3 {
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper4 {
+    width: 200px;
+    height: 22px;
+    text-align: left;
+}
+
+.wrapper5 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo li{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+
+#prudential {
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 -20px;
+}
+
+#brilife {
+    left: 0;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 -90px;
+}
+
+#sinarmas {
+    left: 0;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 155px;
+}
+
+#aca {
+    left: 0;
+    top: 150px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 100px;
+}
+
+#lippo {
+    left: 0;
+    top: 200px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 40px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+}

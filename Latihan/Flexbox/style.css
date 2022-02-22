@@ -1,0 +1,26 @@
+.container {
+    width: 425px;
+    display: flex;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    margin: 50% auto;
+    padding: 15px 5px;
+}
+
+.container div {
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin: 15px;
+}
+
+div .angka {
+    padding: 45px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin: 0 auto;
+
+}
+
+body {
+    text-align: center;
+}
+
+h6 {
+    text-align: left;
+    margin: 0;
+}
+
+h6 span {
+    color: darkgray;
+}
+
+.wrapper1 {
+    width: 301px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper2 {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper3 {
+    width: 100px;
+    height: 55px;
+}
+
+.wrapper4 {
+    width: 150px;
+    height: 55px;
+    display: flex;
+}
+
+.wrapper5{
+    width: 50px;
+    height: 55px;
+}
+
+.wrapper5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.asuransi {
+    width: 200px;
+    display: flex;
+}
+
+#prudential {
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 -20px;
+}
+
+#brilife {
+    left: 0;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 -90px;
+}
+
+#sinarmas {
+    left: 0;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 155px;
+}
+
+#aca {
+    left: 0;
+    top: 150px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 100px;
+}
+
+#lippo {
+    left: 0;
+    top: 200px;
+    width: 100px;
+    height: 50px;
+    background: url(logo.jpeg) 0 40px;
+}
