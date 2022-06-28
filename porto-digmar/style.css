@@ -1,0 +1,28 @@
+nav div div ul {
+    width: 80%;
+}
+
+nav div div ul li {
+    width: 150px;
+}
+
+.cntr {
+    margin: 50px auto;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.profile-pic {
+    width: 20%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic div img {
+    z-index: 2;
+}
